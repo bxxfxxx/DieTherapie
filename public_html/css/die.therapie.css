@@ -16,6 +16,10 @@ body{
     color:#fff;
 }
 
+h2{font-size: 2.6em;}
+p{font-size: 1.8em;}
+.row{margin-bottom: 30px;}
+
 #intro{line-height: 240px;font-size:120px; text-align: center; margin-top: 200px;}
 #intro a{color:#fff;}
 #intro a:hover,
@@ -38,19 +42,20 @@ body{
     margin-bottom: 10px;
 }
 
-#header #brand{font-size:60px;line-height: 110px;height: 150px;}
+#header #brand{font-size:60px;line-height: 110px;height: 150px;text-transform: uppercase;}
 #header *{color:#fff}
+#header .row{margin-bottom: 0px;}
 #header #menu .menu-item{
     height: 150px;
     line-height: 20px;
     text-align: center;
     border-radius: 75px;
     width: 150px;
-    font-size: 24px;
+    font-size: 2.0em;
     padding: 65px 0px;
 }
 #header #menu .menu-item:hover{
-    background-color:#C4A979;
+    background-color: #fff;
     color: #000;
 }
 
@@ -77,7 +82,11 @@ body{
 
 #footer #purpurinepau:hover{color:goldenrod;}
 
-
+/**************
+    pages
+**************/
+.texto-intro{font-size:2.4em; padding:30px 10px;}
+.texto{font-size:2.8em; padding:200px 10px;}
 /**************
 helper classes
 **************/

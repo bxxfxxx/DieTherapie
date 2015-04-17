@@ -4,10 +4,10 @@ var dieTherapieApp = angular.module('dieTherapie', [
 ]).config(['$routeProvider',
     function ($routeProvider) {
         $routeProvider
-                .when('/intro', {
-                    templateUrl: './snippets/intro.html'
-//                    controller: 'HomeCtrl'
-                })
+//                .when('/intro', {
+//                    templateUrl: './snippets/intro.html'
+////                    controller: 'HomeCtrl'
+//                })
                 .when('/home', {
                     templateUrl: './snippets/home.html'
 //                    controller: 'HomeCtrl'
@@ -16,16 +16,20 @@ var dieTherapieApp = angular.module('dieTherapie', [
                     templateUrl: './snippets/proyecto.html'
 //                    controller: 'HomeCtrl'
                 })
-                .when('/instalacion', {
-                    templateUrl: './snippets/instalacion.html'
+                .when('/personajesehistoria', {
+                    templateUrl: './snippets/personajesehistoria.html'
 //                    controller: 'HomeCtrl'
                 })
-                .when('/equipo', {
-                    templateUrl: './snippets/equipo.html'
+                .when('/fotosytextos', {
+                    templateUrl: './snippets/fotosytextos.html'
+//                    controller: 'HomeCtrl'
+                })
+                .when('/fichatecnica', {
+                    templateUrl: './snippets/fichatecnica.html'
 //                    controller: 'HomeCtrl'
                 })
                 .otherwise({
-                    redirectTo: '/intro'
+                    redirectTo: '/home'
                 });
     }]);
 

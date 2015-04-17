@@ -1,0 +1,76 @@
+{
+  "name": "equipo-tecnico",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "9d3d9d6ce1ec63eaa26281e6162853c9",
+      "css": "fotografia",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "bcb868184ff9c35f8aef564f50c0d649",
+      "css": "guion",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "39c4d0e225a1263a398a47523cb5b9bd",
+      "css": "maquillaje",
+      "code": 59404,
+      "src": "entypo"
+    },
+    {
+      "uid": "2npqajwqwxy3kbchcht7tyupllg270hb",
+      "css": "peluqueria",
+      "code": 59401,
+      "src": "typicons"
+    },
+    {
+      "uid": "vsvgkgr7wqknxe7rsjrusvvs43yekcyr",
+      "css": "makingof",
+      "code": 59396,
+      "src": "modernpics"
+    },
+    {
+      "uid": "zc0c8s0nyweeeo9i8a3rucu7alwxt56r",
+      "css": "decorado",
+      "code": 59397,
+      "src": "modernpics"
+    },
+    {
+      "uid": "uetwmlvm6z9eaot1t74vvsgrte9vwi0n",
+      "css": "asistente-tecnico",
+      "code": 59402,
+      "src": "modernpics"
+    },
+    {
+      "uid": "3fe687c833fa36452029b6d57e9149bf",
+      "css": "makingof-dos",
+      "code": 59403,
+      "src": "maki"
+    },
+    {
+      "uid": "5f89d009e91c94c7c9be2f8711d7a2eb",
+      "css": "actores",
+      "code": 59399,
+      "src": "maki"
+    },
+    {
+      "uid": "599d6c088f4a1c64611b989459d65f6b",
+      "css": "idea",
+      "code": 59392,
+      "src": "elusive"
+    },
+    {
+      "uid": "862d4faacb164c0412cb3249d43d5d39",
+      "css": "vestuario",
+      "code": 59395,
+      "src": "linecons"
+    }
+  ]
+}
