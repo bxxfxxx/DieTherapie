@@ -1,0 +1,96 @@
+@font-face{
+    font-family : "mountains";
+    /* pour IE */
+    src : url('../fonts/MountainsofChristmas.eot');
+    /* pour les autres */
+    src : url('../fonts/MountainsofChristmas.woff') format('woff'),
+        url('../fonts/MountainsofChristmas.woff2') format('woff2'),
+        url('../fonts/MountainsofChristmas.svg#abcd') format('svg'),
+        url('../fonts/MountainsofChristmas.ttf') format('truetype');
+}
+
+body{
+    font-family: 'mountains';
+    font-size: 16px;
+    background-color: #000;
+    color:#fff;
+}
+
+#intro{line-height: 240px;font-size:120px; text-align: center; margin-top: 200px;}
+#intro a{color:#fff;}
+#intro a:hover,
+#intro a:active,
+#intro a:focus{text-decoration: none;}
+#intro #icon-camera{font-size: 24px; color:rgba(255,255,255,0.1);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+}
+#intro:hover #icon-camera{color:rgba(255,255,255,0.8)}
+
+#header{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    height: 160px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+}
+
+#header #brand{font-size:60px;line-height: 110px;height: 150px;}
+#header *{color:#fff}
+#header #menu .menu-item{
+    height: 150px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 75px;
+    width: 150px;
+    font-size: 24px;
+    padding: 65px 0px;
+}
+#header #menu .menu-item:hover{
+    background-color:#C4A979;
+    color: #000;
+}
+
+#main-container{
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+}
+
+#footer{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+#footer *{color:#fff;}
+#footer #purpurinepau{
+    display: inline-block; 
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    background:none;
+}
+
+#footer #purpurinepau:hover{color:goldenrod;}
+
+
+/**************
+helper classes
+**************/
+.full-size{width:100%;}
+
+.transition{
+    transition: 1.6s;
+    -webkit-transition: 1.6s;
+    -moz-transition: 1.6s;
+}
+
+.transition:hover{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
